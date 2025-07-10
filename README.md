@@ -11,7 +11,17 @@ All-day RNBO crash course, exporting and so much more
 
 ## RNBO Knowledge
 
-## WASM and p5.js
+- Parameters
+- MIDI input/output
+- Polyphony
+- The `set` object
+
+## Web Export
+
+- Export using the web template
+- Minimal example using just a slider
+- Example using p5
+- Example using three.js
 
 The very most basic note playing code:
 
