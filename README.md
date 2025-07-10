@@ -43,5 +43,12 @@ function mouseReleased() {
 
 ## Raspberry Pi
 
+- SSH and Cyberduck
+- Connecting to the Raspberry Pi in the first place
+- Using a MIDI controller
+- Using the Web Interface
+- SSH and updating samples
 - OSC and parameter messages
 - How to access all of the different parameter paths
+- GPIO and control.
+- How to make the python process start up automatically on launch
