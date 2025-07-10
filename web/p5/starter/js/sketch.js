@@ -1,5 +1,5 @@
 // The name of our exported RNBO patch
-const patchExportURL = "export/noise-machine.export.json";
+const patchExportURL = "export/random-pattern.export.json";
 let note = undefined;
 
 let device, context;
@@ -31,14 +31,14 @@ function draw() {
 function mousePressed() {
     if (device) {
         context.resume();
-        const param = device.parametersById.get("engaged");
+        const param = device.parametersById.get("run");
         param.value = 1;
     }
 }
 
 function mouseReleased() {
     if (device) {
-        const param = device.parametersById.get("engaged");
+        const param = device.parametersById.get("run");
         param.value = 0;
     }
 }
