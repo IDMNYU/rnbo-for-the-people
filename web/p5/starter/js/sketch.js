@@ -13,8 +13,8 @@ async function setupRNBO() {
 setupRNBO();
 
 function setup() {
-    colorMode(HSB, 255);
     createCanvas(800, 800);
+    colorMode(HSB, 255);
 }
 
 function draw() {
