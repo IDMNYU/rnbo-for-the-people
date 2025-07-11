@@ -52,3 +52,10 @@ function mouseReleased() {
 - How to access all of the different parameter paths
 - GPIO and control.
 - How to make the python process start up automatically on launch
+
+## Unreal
+
+- You will of course need Unreal Engine, and you'll need Xcode on macOS as well.
+- Grab the test project here https://github.com/Cycling74/rnbo.metasounds.testproj
+- Installing the RNBO plugin and everything else https://github.com/Cycling74/RNBOMetasound/blob/main/docs/README.md
+- Using OSC to send messages to Max
